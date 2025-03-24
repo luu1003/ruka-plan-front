@@ -10,12 +10,12 @@ export default function ViewsLayout() {
         tabBarPosition: Platform.OS === "web" ? "top" : "bottom",
         tabBarStyle: {
           height: 50,
-          backgroundColor: "#333",
+          backgroundColor: "#B99470",
         },
         tabBarLabelStyle: {
           fontSize: 23,
           fontWeight: "bold",
-          color: "#fff",
+          color: "#F7DCB9",
         },
       }}
     >
@@ -27,7 +27,7 @@ export default function ViewsLayout() {
           tabBarItemStyle: {
             flex: 1,
             alignItems: "flex-start",
-            paddingLeft: 2, // Pegado a la izquierda
+            paddingLeft: 2, 
           },
         }}
       />
@@ -39,7 +39,7 @@ export default function ViewsLayout() {
           tabBarItemStyle: {
             flex: 1,
             alignItems: "flex-start",
-            paddingLeft: 2 // Menor separación respecto a "Inicio"
+            paddingLeft: 2 
           },
         }}
       />
@@ -57,7 +57,6 @@ export default function ViewsLayout() {
             flex: 0.5,
             justifyContent: "flex-end",
             alignItems: "flex-end",
-            paddingLeft: 2,
           },
         }}
       />
